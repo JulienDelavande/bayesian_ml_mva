@@ -4,8 +4,8 @@ This project implements the methods described in the paper **"Being Bayesian, Ev
 
 ## Authors
 
- - Anatole Vakili
- - Julien Delavande
+ - [Anatole Vakili](https://github.com/SoAnVa)
+ - [Julien Delavande](https://github.com/JulienDelavande)
 
 ## Features
 - Binary classification using ReLU or Tanh activation
@@ -35,12 +35,12 @@ pip install -r requirements.txt
 ### Example Commands:
 Train a binary classifier with ReLU activation:
 ```bash
-python train_nn_parser.py --n_epochs 10000 --lr 0.001
+python main.py --n_epochs 10000 --lr 0.001
 ```
 
 Train a multi-class classifier with Tanh activation and confidence optimization:
 ```bash
-python train_nn_parser.py --multi_class --tanh --optimize
+python main.py --multi_class true --tanh true --optimize true
 ```
 
 ## Visualization

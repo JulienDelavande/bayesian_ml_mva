@@ -55,7 +55,7 @@ class ManyClassesNNReLU(nn.Module):
     
 class ManyClassesNNTanh(nn.Module):
     def __init__(self, n=2, h=20, out=4):
-        super(ManyClassesNNReLU, self).__init__()
+        super(ManyClassesNNTanh, self).__init__()
         
         self.feature_extr = nn.Sequential(
             nn.Linear(n, h),
